@@ -1,7 +1,9 @@
 # Classification-Web-App-using-Streamlit-
-I have tried to create a web app based on binary/multiclass classification using streamlit and the app is deployed through Azure. 
+I have tried to create a web app based on binary/multiclass classification using streamlit and the app is deployed through Streamlit, Azure and Heroku.
 
-The deployed web app is live at https://akshadaas-classification-web-app-using-st-classifier-app-t7w8fp.streamlitapp.com/. 
+The deployed web app is live at streamlit : https://akshadaas-classification-web-app-using-st-classifier-app-t7w8fp.streamlitapp.com/, Azure : https://classifier-app.azurewebsites.net/, Heroku : https://mlclassifier-web-app.herokuapp.com/. 
+
+Please refer links for deployment streamlit : https://docs.streamlit.io/streamlit-cloud/get-started/deploy-an-app , Azure : https://www.youtube.com/watch?v=2toRzAYT8yo&t=631s,  Heroku: https://www.youtube.com/watch?v=zK4Ch6e1zq8&t=307s.
 
 This app perform classification on UCI datasets (IRIS, Breast Cancer, Wine) using different machine learning algorithms (Random Forest, Support vector machine (SVM), K-Nearest Neighbors (KNN)). You can also visualize these datasets. 
 
