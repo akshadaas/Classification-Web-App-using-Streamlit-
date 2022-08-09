@@ -1,9 +1,6 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Sun Aug  7 19:21:31 2022
 
-@author: Dell
-"""
+
 import streamlit as st
 from sklearn import datasets
 from sklearn.ensemble import RandomForestClassifier
