@@ -110,19 +110,19 @@ def main():
     if st.sidebar.checkbox("Show raw data", False):
         st.subheader("Classification on different UCI datasets")
         if dataset_name == "IRIS":
-            st.subheader("Dataset Information")
+            st.subheader("IRIS-Dataset Information")
             st.markdown("This [data set](https://archive.ics.uci.edu/ml/datasets/iris) perhaps the best known database to be found in the pattern recognition literature. Fisher's paper is a classic in the field and is referenced frequently to this day. (See Duda & Hart, for example.) The data set contains 3 classes of 50 instances each, where each class refers to a type of iris plant. One class is linearly separable from the other 2; the latter are NOT linearly separable from each other.")
             st.subheader("Attribute Information")
             st.markdown("1. sepal length in cm \n2. sepal width in cm \n3. petal length in cm\n4. petal width in cm\n5. Predicted classes-: Iris Setosa, Iris Versicolour, Iris Virginica")
             
         elif dataset_name == "Wine":
-            st.subheader("Dataset Information")
+            st.subheader("Wine-Dataset Information")
             st.markdown("In this [data set](https://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+(diagnostic)), features are computed from a digitized image of a fine needle aspirate (FNA) of a breast mass. They describe characteristics of the cell nuclei present in the image. A few of the images can be found at [Web Link]")
             st.subheader("Attribute Information")
             st.markdown("1) Alcohol\n2) Malic acid\n3) Ash\n4) Alcalinity of ash\n5) Magnesium\n6) Total phenols\n7) Flavanoids\n8) Nonflavanoid phenols\n9) Proanthocyanins\n10)Color intensity\n11)Hue\n12)OD280/OD315 of diluted wines\n13)Proline")
             
         elif dataset_name == "Breast cancer":
-            st.subheader("Dataset Information")
+            st.subheader("Breast cancer-Dataset Information")
             st.markdown("This [data set](https://archive.ics.uci.edu/ml/datasets/wine) is the results of a chemical analysis of wines grown in the same region in Italy but derived from three different cultivars. The analysis determined the quantities of 13 constituents found in each of the three types of wines.")
             st.subheader("Attribute Information")
             st.markdown("1) ID number \n2) Diagnosis (M = malignant, B = benign)3-32)")
